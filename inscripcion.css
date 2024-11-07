@@ -1,0 +1,49 @@
+body{
+	background: linear-gradient( black 5%,blue 15%,skyblue 75%, white);
+}
+h1{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align:center;
+	background: linear-gradient( 30deg, blue,greenyellow,yellow,greenyellow,black);
+}
+label{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display:block ;
+	text-transform: uppercase;
+	text-decoration-color:;
+}
+form{
+	margin-top: 20px;
+}
+input{
+	font-size-display: flex;
+	color: forestgreen;
+	background: linear-gradient(green,yellow);
+	padding: 7px 6px;
+	border-radius: 7px;
+	text-transform: uppercase;
+	border-color: darkred;
+	box-shadow: 5px 4px tomato;
+}
+textarea{
+	color: forestgreen;
+	padding: 7px 6px;
+	border-radius: 7px;
+	text-transform: uppercase;
+	border-color: darkred;
+	box-shadow: 5px 4px tomato;
+}
+option{
+	color: forestgreen;
+}
+a{
+	color: forestgreen;
+	padding: 7px 6px;
+	background: linear-gradient(blueviolet,white);
+	border-radius: 7px;
+	text-transform: uppercase;
+	border-color: darkred;
+	box-shadow: 5px 4px tomato;
+}

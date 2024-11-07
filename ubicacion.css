@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet" )
+{
+	margin: 0;
+	padding: 0;
+	box-decoration: none ;
+	list-style: none;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+img{
+	max-width: 100%;
+}
+
+conteiner{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.header{
+	background-color:#fffAF7 ;
+
+}
+p{
+	font-size: 18px;
+	color: #1b1b1d;
+	margin-bottom:25px ;
+	text-align:justify	;
+}
+
+.btn-1{
+	display: inline-block;
+	padding: 10px 25px;
+	color: #ff0033;
+	background-color: #ff8400;
+	text-transform: uppercase;
+	border-radius: 25px;
+	font-size: 16px;
+}
+
+.btn-1:hover{
+	background-color: #f38004;
+}
+
+.header-content {
+	display: 	flex	;
+	justify-content: space-between	;
+	padding: 80px;
+}
+
+.header-txt {
+	padding-right:80px ;
+}
+.header-img{
+	flex-basis: 50%;
+}
+
+.sevices{
+	padding: 80px 0;
+	text-align: center;
+}
+h1{
+	color: #ff1493;
+	font-size: 40px;
+	text-align:center	;
+}
+h2 {
+	text-align: center;
+	font-size: 20px;
+}
+

@@ -1,0 +1,79 @@
+*{
+	padding:none ;
+	margin: none;
+}
+body{
+	background: linear-gradient(black, blue,skyblue, blue,black) ;
+}
+h1 {
+	background:linear-gradient(skyblue,wheat,skyblue); 
+	text-align: center;
+	text-transform: uppercase ;
+	text-decoration-color:yellow ;
+	font-family: Jokerman;
+}
+h2 {
+	font-family:algerian ;
+	text-align: center;
+	text-transform: uppercase ;
+}
+p{
+	font-family:Lucida Calligraphy ;
+	text-align: center;
+	color:red; 
+}
+.imagenes ul{
+	list-style: none;
+	text-align:center ;
+
+}
+
+.imagenes{
+	text-align: center;
+}
+.imagenes img{
+	transition: transform 0.5s;
+	box-shadow: 4px 4px 30px white;
+
+}
+.imagenes img:hover{
+	transform: scale(1.5);
+}
+img{
+	width: 30%;
+	margin:5px;
+
+}
+@media(max-width: 768px){
+	.imagenes{
+		flex-direction: column;
+	}
+	.menu-icono{
+		flex-direction: column;
+	
+	}
+	img{
+		width: 100%
+	}
+
+}
+footer{
+	text-align: center;
+	padding: 20px;
+	background: linear-gradient(black,blue,skyblue,wheat,skyblue,blue);
+}
+#menu{
+	display: ;
+}
+
+.menu-icono{
+	width: 15px;
+	height:30px;
+}
+
+.menu label{
+	cursor: pointer;
+	display: none;
+	padding: 20px;
+
+}
